@@ -1,4 +1,4 @@
-from lib.action import BaseAction
+from lib.actions import BaseAction
 
 
 class PreviousAction(BaseAction):
