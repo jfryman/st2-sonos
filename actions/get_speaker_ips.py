@@ -1,8 +1,10 @@
 from lib.actions import BaseAction
-from soco import SonosDiscovery
 
 
 class GetSpeakerIpsAction(BaseAction):
     def run(self):
-        sonos = SonosDiscovery()
-        return sonos.get_speaker_ips()
+        devices = []
+        speakers = self._get_speakers()
+        for speaker in speakers:
+            devices.append(speaker.ip_address)
+        return devices
