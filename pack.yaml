@@ -1,0 +1,7 @@
+### Place information about your pack version here.
+---
+name: sonos
+description: Manage and control Sonos devices
+version: 0.1.0
+author: jfryman
+email: james@stackstorm.com
