@@ -1,0 +1,11 @@
+---
+name: "stop"
+runner_type: "run-python"
+description: "Stop audio"
+enabled: true
+entry_point: "stop.py"
+parameters:
+  ip:
+    type: "string"
+    description: "IP address of Sonos device to send command to"
+    required: true

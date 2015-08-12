@@ -1,0 +1,11 @@
+---
+name: "play"
+runner_type: "run-python"
+description: "Play currently queued audio"
+enabled: true
+entry_point: "play.py"
+parameters:
+  ip:
+    type: "string"
+    description: "IP address of Sonos device to send command to"
+    required: true

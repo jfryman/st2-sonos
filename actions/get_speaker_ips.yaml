@@ -1,0 +1,7 @@
+---
+name: "get_speaker_ips"
+runner_type: "run-python"
+description: "Get all Sonos speaker IPs"
+enabled: true
+entry_point: "get_speaker_ips.py"
+parameters: {}

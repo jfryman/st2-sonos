@@ -1,0 +1,11 @@
+---
+name: "info"
+runner_type: "run-python"
+description: "Get current playing audio information"
+enabled: true
+entry_point: "info.py"
+parameters:
+  ip:
+    type: "string"
+    description: "IP address of Sonos device to send command to"
+    required: true

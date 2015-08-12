@@ -1,0 +1,11 @@
+---
+name: "next"
+runner_type: "run-python"
+description: "Play next track in queue"
+enabled: true
+entry_point: "next.py"
+parameters:
+  ip:
+    type: "string"
+    description: "IP address of Sonos device to send command to"
+    required: true

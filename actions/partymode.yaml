@@ -1,0 +1,11 @@
+---
+name: "partymode"
+runner_type: "run-python"
+description: "Set devices to connect to all other devices in PartyMode!"
+enabled: true
+entry_point: "partymode.py"
+parameters:
+  ip:
+    type: "string"
+    description: "IP address of Sonos device to send command to"
+    required: true

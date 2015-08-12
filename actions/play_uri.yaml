@@ -1,0 +1,15 @@
+---
+name: "play_uri"
+runner_type: "run-python"
+description: "Play audio from an URI"
+enabled: true
+entry_point: "play_uri.py"
+parameters:
+  ip:
+    type: "string"
+    description: "IP address of Sonos device to send command to"
+    required: true
+  uri:
+    type: "string"
+    description: "Location of audio to play"
+    required: true
